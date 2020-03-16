@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "42558AC4-4771-4480-ACBD-4C78CE2BDDC4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03A5D8FF-E131-4C94-BBE7-35C5F9373159"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7958ECD-AD2C-4DD3-BED0-785FBFD95472"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "DownolandTrack(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7958ECD-AD2C-4DD3-BED0-785FBFD95472 - 5e26fc9550545bce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.searchBarSearchButtonClicked(__C.UISearchBar) -&gt; ()"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "363">
+               </Location>
+               <Location
+                  uuid = "B7958ECD-AD2C-4DD3-BED0-785FBFD95472 - e4ce4793ae01fe2a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;audioPlayerwithNetWorking.Song&gt;&gt;) -&gt; () in audioPlayerwithNetWorking.TableViewController.searchBarSearchButtonClicked(__C.UISearchBar) -&gt; ()"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "106">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA48DCDB-6075-4D9B-A29E-95FB73D2681A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "DownolandTrack(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B22512D5-FF7C-47C3-BFA3-23795C19ACBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "DownolandTrack(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "searchBarTextDidBeginEditing(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736 - 4e337e54c932c1ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.searchBar.getter : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736 - 62cd0dcfd7b6b9c4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.searchBar.setter : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736 - d36e43ffb9a37aa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.searchBar.modify : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736 - 3fe15e5b89499a3b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.searchBar.modify : Swift.Optional&lt;__C.UISearchBar&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736 - 26c6009b09285cc6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.init(style: __C.UITableViewStyle) -&gt; audioPlayerwithNetWorking.TableViewController"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736 - e73f14814b4d2ee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; audioPlayerwithNetWorking.TableViewController"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "E8635F0F-DA03-4F85-8AB3-31025C479736 - 5ea5499507093f1d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "audioPlayerwithNetWorking.TableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;audioPlayerwithNetWorking.TableViewController&gt;"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A6A68CA-DA70-4051-BACE-B9AC70EBFA82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/NetWorking/Query.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "requestSong(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7BA869D-31FA-4A7E-84B2-70C3EC42F393"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/NetWorking/Query.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "requestSong(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7BA869D-31FA-4A7E-84B2-70C3EC42F393 - 66c7226c8178b1d2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in audioPlayerwithNetWorking.SongsManager.requestSong(_: Swift.String, completion: (Swift.Optional&lt;Swift.Array&lt;audioPlayerwithNetWorking.Song&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/NetWorking/Query.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "278">
+               </Location>
+               <Location
+                  uuid = "E7BA869D-31FA-4A7E-84B2-70C3EC42F393 - c55f66a27a21db03"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in audioPlayerwithNetWorking.SongsManager.requestSong(_: Swift.String, completion: (Swift.Optional&lt;Swift.Array&lt;audioPlayerwithNetWorking.Song&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "audioPlayerwithNetWorking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tigran/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/solutions/audioPlayerwithNetWorking/audioPlayerwithNetWorking/NetWorking/Query.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "215">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF64FA9C-553F-4FA3-8112-0E0A0E51D262"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/ViewModels/SongRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4759CE2C-19CB-4291-8F9D-3CE31C580A8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "DownolandTrack(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCB73470-C328-495B-ABEF-7BE6F6BACC0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "TableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18EE2534-A4B7-4829-9D81-F6D326EDBC24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB35B3E8-97D2-4C45-83BA-9C97EA33AAAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D895D9FB-6FA7-4F0C-AE5D-D1219144304D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "audioPlayerwithNetWorking/viewControlers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
