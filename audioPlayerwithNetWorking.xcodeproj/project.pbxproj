@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9800D1DE2420C116004056C6 /* musicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800D1DD2420C116004056C6 /* musicPlayer.swift */; };
+		9800D1E02420C1CC004056C6 /* DownloadAudioFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800D1DF2420C1CC004056C6 /* DownloadAudioFile.swift */; };
 		987E459A241CE1DC007D12C9 /* SongRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E4599241CE1DC007D12C9 /* SongRequest.swift */; };
 		C8098DC822E483D6000D0086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8098DC722E483D6000D0086 /* AppDelegate.swift */; };
 		C8098DCA22E483D6000D0086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8098DC922E483D6000D0086 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9800D1DD2420C116004056C6 /* musicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayer.swift; sourceTree = "<group>"; };
+		9800D1DF2420C1CC004056C6 /* DownloadAudioFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAudioFile.swift; sourceTree = "<group>"; };
 		987E4599241CE1DC007D12C9 /* SongRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRequest.swift; sourceTree = "<group>"; };
 		C8098DC422E483D6000D0086 /* audioPlayerwithNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioPlayerwithNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8098DC722E483D6000D0086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				987E4599241CE1DC007D12C9 /* SongRequest.swift */,
+				9800D1DD2420C116004056C6 /* musicPlayer.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C8098DF022E76398000D0086 /* Query.swift */,
+				9800D1DF2420C1CC004056C6 /* DownloadAudioFile.swift */,
 			);
 			path = NetWorking;
 			sourceTree = "<group>";
@@ -182,8 +188,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9800D1E02420C1CC004056C6 /* DownloadAudioFile.swift in Sources */,
 				C8098DEC22E76207000D0086 /* ModelInfo.swift in Sources */,
 				C8098DCA22E483D6000D0086 /* ViewController.swift in Sources */,
+				9800D1DE2420C116004056C6 /* musicPlayer.swift in Sources */,
 				C8098DF122E76398000D0086 /* Query.swift in Sources */,
 				987E459A241CE1DC007D12C9 /* SongRequest.swift in Sources */,
 				C8098DF722EC7691000D0086 /* TableViewCell.swift in Sources */,

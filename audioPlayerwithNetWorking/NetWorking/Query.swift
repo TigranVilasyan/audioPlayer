@@ -15,15 +15,11 @@ let media = "media"
 let entity = "entity"
 let term = "term"
 
-protocol AddNoteViewControllerDelegate: class {
-    func TrackImage(image: UIImage)
-}
 class SongsManager {
-
+    
     
     static let shared = SongsManager()
-    
-    weak var delegate: AddNoteViewControllerDelegate?
+
     private let session = URLSession(configuration: .default)
     private func addQueries(_ queries: [String: String], to baseURL: URL) -> URL {
         var components = URLComponents(string: baseURL.absoluteString)

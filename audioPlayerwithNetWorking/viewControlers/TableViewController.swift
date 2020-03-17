@@ -12,20 +12,16 @@ import Foundation
 class TableViewController: UITableViewController, UISearchBarDelegate {
     
     @IBOutlet weak var searchBar: UISearchBar!
+    
     var downloadTask: URLSessionDownloadTask!
     var backgroundSession: URLSession!
+    
     var songs = [Song]()
     var info: Song?
     var action: passSongInfo?
-    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
-        guard let searchText = searchBar.text, !searchText.isEmpty else { return }
-        self.searchBar.resignFirstResponder()
-        SongRequest.shared.getRequest(searchText) { (songs) in
-            guard let songs = songs else { return }
-            self.songs = songs
-            self.tableView.reloadData()
-        }
-    }
+
+    var songRequest = SongRequest()
+    var downolandMusic = MusicPlayer()
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
@@ -34,20 +30,11 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let searchText = searchBar.text, !searchText.isEmpty else { return }
         searchBar.resignFirstResponder()
-        SongRequest.shared.getRequest(searchText) {(songs) in
+        songRequest.getRequest(searchText) {(songs) in
             guard let songs = songs else { return }
             self.songs = songs
             self.tableView.reloadData()
         }
-        
-    }
-    
-    @IBAction func DownolandTrack(_ sender: Any) {
-        
-        let url = URL(string: "\(String(describing: info?.previewUrl))")
-        downloadTask = backgroundSession.downloadTask(with: url!)
-        downloadTask.resume()
-        
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

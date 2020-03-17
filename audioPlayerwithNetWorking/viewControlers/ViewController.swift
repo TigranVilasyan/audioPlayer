@@ -13,29 +13,27 @@ class ViewController: UIViewController{
    
     var song = [Song]()
     
-    var song1: Song?
-    
     @IBAction func undoAction() {
-        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
     }
     @IBAction func playButton(_ sender: Any) {
     }
     @IBOutlet weak var nextTrack: UIButton!
-    @IBOutlet weak var pauseTrack: UIButton!
     @IBOutlet weak var previesTrack: UIButton!
     @IBOutlet weak var SingerLabel: UILabel!
     @IBOutlet weak var titleOfTrack: UILabel!
-    @IBOutlet weak var trackImageView: UIImage!
+    @IBOutlet weak var trackImageView: UIImageView!
+    
     @IBOutlet weak var slider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         song.forEach {
             let imageData = try! Data(contentsOf: $0.artworkUrl100)
-            let image = UIImage(data: imageData)
+            let imageView = UIImage(data: imageData)
             SingerLabel.text = $0.artistName
             titleOfTrack.text = $0.trackName
-            trackImageView = image
+            trackImageView.image = imageView
         }
     }
 }

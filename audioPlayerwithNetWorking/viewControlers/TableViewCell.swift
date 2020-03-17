@@ -13,6 +13,15 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var artist: UILabel!
     @IBOutlet weak var progress: UIButton!
+    @IBAction func downolandTrack(_ sender: Any) {
+        downolandTrack.forEach { (btn) in
+            if btn.isEnabled == true {
+                
+            }
+        }
+    }
+    @IBOutlet var downolandTrack: [UIButton]!
     
 }
+
 
