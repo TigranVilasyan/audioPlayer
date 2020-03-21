@@ -49,6 +49,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98672B4C2426049B00BD0F42 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		987E4598241CE1BC007D12C9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +84,7 @@
 		C8098DC622E483D6000D0086 /* audioPlayerwithNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				98672B4C2426049B00BD0F42 /* Sounds */,
 				C8098DC722E483D6000D0086 /* AppDelegate.swift */,
 				C8098DCB22E483D6000D0086 /* Main.storyboard */,
 				987E4598241CE1BC007D12C9 /* ViewModels */,

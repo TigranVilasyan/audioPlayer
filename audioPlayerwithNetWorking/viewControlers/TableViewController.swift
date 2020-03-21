@@ -9,6 +9,8 @@
 import UIKit
 import Foundation
 
+typealias givePathToVC = (String)-> ()
+
 class TableViewController: UITableViewController, UISearchBarDelegate {
     
     @IBOutlet weak var searchBar: UISearchBar!
@@ -19,12 +21,25 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     var songs = [Song]()
     var info: Song?
     var action: passSongInfo?
-
+    var givePathToVC: givePathToVC?
     var songRequest = SongRequest()
     var downolandMusic = MusicPlayer()
+    var pathToMUsicFile: String?
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
+    }
+    
+    @objc private func DownolandTrack(sender: UIButton) {
+        for i in 0...songs.count {
+            if i == sender.tag {
+                downolandMusic.DownloadMusic(songs[i].previewUrl.absoluteString) { (text) in
+                    guard let text = text else {return}
+                    let replacedFromat = text.replacingOccurrences(of: "m4a", with: "mp4")
+                    self.pathToMUsicFile = replacedFromat
+                }
+            }
+        }
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -50,6 +65,9 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard  let cell: TableViewCell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as? TableViewCell  else { return UITableViewCell() }
         let song = songs[indexPath.row]
+        cell.DownolandTrack.tag = indexPath.row
+        cell.DownolandTrack.addTarget(self, action:#selector(DownolandTrack(sender:)), for: .touchUpInside)
+        
         cell.artist.text = song.artistName
         cell.title.text = song.trackName
         return cell
@@ -61,6 +79,7 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
             let str = UIStoryboard(name: "Main", bundle: nil)
             let vc = str.instantiateViewController(identifier: "ViewController") as? ViewController
             vc?.song.append(song)
+            vc?.pathToMusicFile = self.pathToMUsicFile
             navigationController?.pushViewController(vc!, animated: true)
         } else {
             // Fallback on earlier versions

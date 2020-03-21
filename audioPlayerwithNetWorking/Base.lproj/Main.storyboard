@@ -64,27 +64,24 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7S-Rv-gby">
-                                            <rect key="frame" x="313" y="6" width="77" height="30"/>
-                                            <state key="normal" title="Downoland"/>
-                                            <connections>
-                                                <action selector="downolandTrack:" destination="bI0-NK-n8a" eventType="touchUpInside" id="Hfm-xH-0Yo"/>
-                                            </connections>
-                                        </button>
                                         <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RSA-Te-RkV">
                                             <rect key="frame" x="313" y="37" width="77" height="2"/>
                                         </progressView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q72-t6-ZHw">
+                                            <rect key="frame" x="313" y="4" width="46" height="30"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="RSA-Te-RkV" secondAttribute="bottom" constant="0.5" id="42P-Ex-vJj"/>
                                         <constraint firstItem="ATk-uf-MKn" firstAttribute="height" secondItem="Wck-Mh-Coy" secondAttribute="height" id="7Kh-GJ-av8"/>
-                                        <constraint firstItem="b7S-Rv-gby" firstAttribute="top" secondItem="D6q-5C-6Lj" secondAttribute="top" constant="6" id="CeU-fA-1Ce"/>
+                                        <constraint firstItem="Q72-t6-ZHw" firstAttribute="leading" secondItem="Wck-Mh-Coy" secondAttribute="trailing" constant="57" id="D2Z-Sp-Ms0"/>
                                         <constraint firstAttribute="bottom" secondItem="ATk-uf-MKn" secondAttribute="bottom" constant="6" id="FxG-Gv-Fwb"/>
                                         <constraint firstItem="ATk-uf-MKn" firstAttribute="top" secondItem="Wck-Mh-Coy" secondAttribute="bottom" constant="1" id="Hq7-tb-uyb"/>
                                         <constraint firstItem="Wck-Mh-Coy" firstAttribute="leading" secondItem="D6q-5C-6Lj" secondAttribute="leading" constant="16" id="TCm-JJ-gPM"/>
                                         <constraint firstItem="ATk-uf-MKn" firstAttribute="top" secondItem="Wck-Mh-Coy" secondAttribute="bottom" constant="1" id="cIq-N3-VIp"/>
-                                        <constraint firstAttribute="trailing" secondItem="b7S-Rv-gby" secondAttribute="trailing" constant="24" id="dos-sw-R3D"/>
                                         <constraint firstItem="RSA-Te-RkV" firstAttribute="leading" secondItem="D6q-5C-6Lj" secondAttribute="leading" constant="313" id="kLJ-ys-rg7"/>
+                                        <constraint firstItem="Q72-t6-ZHw" firstAttribute="top" secondItem="D6q-5C-6Lj" secondAttribute="top" constant="4" id="p5Z-gk-eQO"/>
                                         <constraint firstItem="ATk-uf-MKn" firstAttribute="leading" secondItem="D6q-5C-6Lj" secondAttribute="leading" constant="16" id="t9V-Oo-m7s"/>
                                         <constraint firstAttribute="trailing" secondItem="RSA-Te-RkV" secondAttribute="trailing" constant="24" id="tVL-NP-cjz"/>
                                         <constraint firstItem="Wck-Mh-Coy" firstAttribute="top" secondItem="D6q-5C-6Lj" secondAttribute="top" id="utV-5D-BSj"/>
@@ -93,9 +90,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="DownolandTrack" destination="Q72-t6-ZHw" id="Dbl-cv-xRF"/>
                                     <outlet property="artist" destination="ATk-uf-MKn" id="qRb-sI-WHt"/>
                                     <outlet property="title" destination="Wck-Mh-Coy" id="6un-gx-HcS"/>
-                                    <outletCollection property="downolandTrack" destination="b7S-Rv-gby" collectionClass="NSMutableArray" id="pwl-n9-jya"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -158,7 +155,7 @@
                                         </constraints>
                                         <state key="normal" image="1486348532-music-play-pause-control-go-arrow_80458"/>
                                         <connections>
-                                            <action selector="playButton:" destination="xPr-Be-yrY" eventType="touchUpInside" id="DkO-xG-4wz"/>
+                                            <action selector="playAudio:" destination="xPr-Be-yrY" eventType="touchUpInside" id="p1r-DR-g2d"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3r-8s-pZR">
@@ -221,6 +218,7 @@
                     <connections>
                         <outlet property="SingerLabel" destination="q6E-8x-hco" id="zQx-ZI-hLx"/>
                         <outlet property="nextTrack" destination="97J-Sc-I3H" id="CAY-j2-y84"/>
+                        <outlet property="playTracl" destination="r5q-qY-JNF" id="rEw-eD-cbT"/>
                         <outlet property="previesTrack" destination="q3r-8s-pZR" id="fIZ-35-GCE"/>
                         <outlet property="slider" destination="q1p-TN-MBv" id="Qcq-0s-cq1"/>
                         <outlet property="titleOfTrack" destination="PHY-ro-IG7" id="7vS-Nm-Vud"/>

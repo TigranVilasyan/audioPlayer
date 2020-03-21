@@ -38,6 +38,7 @@ class DownloadAudioFile {
             // check if it exists before downloading it
             if FileManager().fileExists(atPath: destinationUrl.path) {
                 print("The file already exists at path")
+                completion(destinationUrl.absoluteString)
             } else {
                 //  if the file doesn't exist
                 //  just download the data from your url

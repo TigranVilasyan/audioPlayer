@@ -7,17 +7,18 @@
 //
 
 import UIKit
-
+import AVFoundation
 typealias indexPathNumber = (Song?) -> ()
+typealias musicPath = (String?)-> ()
 
 class MusicPlayer {
 
-    var action: indexPathNumber?
-    
-    func DownloadMusic(_ pathToMusic: String) {
+    var action: musicPath?
+    var pathArr: String?
+    func DownloadMusic(_ pathToMusic: String,compilation: @escaping musicPath) {
         DownloadAudioFile.shared.downloadAndSaveAudioFile(pathToMusic) {[weak self] (music) in
-            guard let self = self, let music = music else { return }
-            
+            guard let _ = self,let music = music else { return }
+            compilation(music)
         }
     }
 }

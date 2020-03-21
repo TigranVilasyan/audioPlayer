@@ -9,11 +9,11 @@
 import UIKit
 
 typealias passArrData = ([Song]?) -> ()
-typealias passSongInfo = (Song) -> ()
+typealias passSongInfo = (String) -> ()
 
 class SongRequest {
     
-    func getRequest(_ content: String,compilation:@escaping passArrData) {
+    func getRequest(_ content: String,compilation:@escaping (passArrData)) {
         SongsManager.shared.requestSong(content) { [weak self] (songs) in
             guard let self = self, let songs = songs else { return }
             compilation(songs)
